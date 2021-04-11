@@ -2,7 +2,7 @@
   "name": "weekend-cocktails",
   "version": "1.0.0",
   "description": "New cocktail recipes tweeted out every week!",
-  "main": "index.js",
+  "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -18,5 +18,9 @@
   "bugs": {
     "url": "https://github.com/DanRowe/Bitcamp2021/issues"
   },
-  "homepage": "https://github.com/DanRowe/Bitcamp2021#readme"
+  "homepage": "https://github.com/DanRowe/Bitcamp2021#readme",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "twit": "^2.2.11"
+  }
 }
