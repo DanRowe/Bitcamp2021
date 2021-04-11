@@ -1,0 +1,182 @@
+{
+  "data": [
+    {
+      "name": "Adios Motherf**ker",
+      "detail": "1 oz vodka, 1 oz gin, 1 oz light rum, 1 oz triple sec, sour mix, Blue Curacao"
+    },
+    {
+      "name": "Alabama Slammer",
+      "detail": "1 oz Southern Comfort, 1 oz Amaretto, 0.5 oz grenadine, orange juice"
+    },
+    { "name": "Amaretto Sour", "detail": "2 oz Amaretto, 1 oz lemon juice" },
+    { "name": "Americano", "detail": "1 oz Campari, 1 oz vermouth, club soda" },
+    {
+      "name": "Apple Martini",
+      "detail": "1.5 oz gin, 1.5 oz apple pucker, 1.5 oz apple juice"
+    },
+    {
+      "name": "Bahama Mama",
+      "detail": "1 oz light rum, 1 oz dark rum, 1 oz spiced rum, sour mix, orange juice, pineapple juice, 1 dash grenadine"
+    },
+    { "name": "Bloody Mary", "detail": "2 oz vodka, tomato juice" },
+    {
+      "name": "Boulevardier",
+      "detail": "1.5 oz whiskey, 1 oz Campari, 1 oz sweet vermouth"
+    },
+    { "name": "Chambord Kir Royale", "detail": "0.25 oz Chambord, Champagne" },
+    {
+      "name": "Cosmopolitan",
+      "detail": "1 oz vodka, 1 oz triple sec, 0.5 oz lime juice, 1.5 oz cranberry juice"
+    },
+    {
+      "name": "Cowboy Coffee",
+      "detail": "1.5 oz whiskey, hot brewed coffee, 2 dashes bitters"
+    },
+    {
+      "name": "Cuba Libre",
+      "detail": "2 oz rum, 4 oz cola, 0.25 oz lime juice"
+    },
+    {
+      "name": "Daiquiri",
+      "detail": "2 oz light rum, 0.5 oz lime juice, 1 teaspoon sugar"
+    },
+    {
+      "name": "Dirty Martini",
+      "detail": "2.5 oz gin or vodka, 0.5 oz dry vermouth, 0.5 oz olive brine"
+    },
+    {
+      "name": "Dry Gin Martini",
+      "detail": "2.5 oz gin, 0.5 oz dry vermouth, 1 dash bitters"
+    },
+    {
+      "name": "El Presidente",
+      "detail": "2 oz white rum, 0.5 oz pineapple juice, 0.5 oz lime juice, 2 dashes grenadine"
+    },
+    {
+      "name": "Electric Lemonade",
+      "detail": "1.5 oz light rum, 0.5 oz Blue Curacao, sour mix, lemon-lime soda"
+    },
+    { "name": "Gin & Tonic", "detail": "2 oz gin, tonic water" },
+    { "name": "Gin Buck", "detail": "1.5 oz gin, 0.25 oz lemon, ginger ale" },
+    {
+      "name": "Gin Gimlet",
+      "detail": "1.5 oz gin, 1 oz lime juice, club soda"
+    },
+    {
+      "name": "Harvey Wallbanger",
+      "detail": "1.25 oz vodka, 0.5 oz Galliano liqueur, orange juice"
+    },
+    {
+      "name": "Hurricane",
+      "detail": "2 oz dark rum, 1 oz fruit juice, 1 oz lemon juice"
+    },
+    {
+      "name": "Irish Car Bomb",
+      "detail": "5 oz Baileys, 0.5 oz Irish Whiskey, Guinness Beer"
+    },
+    {
+      "name": "Irish Coffee",
+      "detail": "1.5 oz Irish Whiskey, hot brewed coffee"
+    },
+    {
+      "name": "Jack Rose",
+      "detail": "2 oz Applejack, 1 oz lemon juice, 0.5 oz grenadine"
+    },
+    {
+      "name": "Lemon Drop",
+      "detail": "2 oz citrus vodka, 1 oz lemon juice, 0.5 oz simple syrup"
+    },
+    {
+      "name": "Long Island Iced Tea",
+      "detail": "1 oz gin, 1 oz rum, 1 oz tequila, 1 oz vodka, 1 oz triple sec, 1 oz simple syrup, 1 oz lemon juice, cola"
+    },
+    {
+      "name": "Mai Tai",
+      "detail": "2 oz rum, 0.75 oz lime juice, 0.25 oz simple syrup, 0.5 oz orange Curaçao"
+    },
+    {
+      "name": "Manhattan",
+      "detail": "3 oz rye whiskey, 1 oz sweet vermouth, 3 dashes bitters"
+    },
+    {
+      "name": "Margarita",
+      "detail": "0.5 oz lime juice, 1 oz triple sec, 1.5 oz tequila"
+    },
+    { "name": "Mimosa", "detail": "4 oz champagne, 2 oz orange juice" },
+    {
+      "name": "Mind Eraser",
+      "detail": "1 oz vodka, 1 oz coffee liqueur, club soda"
+    },
+    {
+      "name": "Mint Julep",
+      "detail": "2.5 oz bourbon, mint leaves, 1 oz simple syrup"
+    },
+    {
+      "name": "Mojito",
+      "detail": "Muddled mint leaves, 1 oz simple syrup, 1 oz lime juice, 2 oz white rum, 2 oz club soda"
+    },
+    {
+      "name": "Moscow Mule",
+      "detail": "2 oz vodka, 3 oz ginger beer, 0.5 lime juice"
+    },
+    {
+      "name": "Mudslide",
+      "detail": "2 oz vodka, 2 oz Irish cream, 2 oz coffee liqueur"
+    },
+    { "name": "Negroni", "detail": "1 oz gin, 1 oz bitters, 1 oz vermouth" },
+    {
+      "name": "Old Fashioned",
+      "detail": "2 oz bourbon, 1 tsp sugar, 3 dashes bitters"
+    },
+    {
+      "name": "Piña Colada",
+      "detail": "1.5 oz rum, 2 oz coconut milk, 2 oz pineapple juice"
+    },
+    { "name": "Presbyterian", "detail": "2 oz scotch, ginger ale, club soda" },
+    {
+      "name": "Reverse Revolver",
+      "detail": "2 oz coffee liqueur, 0.5 oz whiskey, 2 dashes orange bitters"
+    },
+    {
+      "name": "Rum Runner",
+      "detail": "1 oz light rum, 1 dark rum, 1 oz banana liqueur, 1 oz blackberry brandy, orange juice, sour mix, 1 dash grenadine"
+    },
+    { "name": "Screwdriver", "detail": "2 oz vodka, orange juice" },
+    {
+      "name": "Sea Breeze",
+      "detail": "2 oz vodka, grapefruit juice, cranberry juice"
+    },
+    {
+      "name": "Seven and Seven",
+      "detail": "1.5 oz whiskey, 4 oz lemon-lime soda"
+    },
+    {
+      "name": "Sex on the Beach",
+      "detail": "1.5 oz vodka, 0.5 oz peach schnapps, 1.5 oz pineapple juice, 1.5 oz cranberry juice"
+    },
+    {
+      "name": "Sidecar",
+      "detail": "2.5 oz cognac, 0.5 oz Grand Marnier, 0.5 oz lemon juice"
+    },
+    {
+      "name": "Tequila Sunrise",
+      "detail": "1.5 oz tequila, 4 oz orange juice, 1 dash grenadine"
+    },
+    {
+      "name": "Tequila Sunrise",
+      "detail": "1.5 tequila, 0.5 grenadine, orange juice"
+    },
+    {
+      "name": "Tom Collins",
+      "detail": "2 oz gin, 1 oz lemon juice, 0.5 oz simple syrup, club soda"
+    },
+    {
+      "name": "Whiskey Sour",
+      "detail": "1.5 oz Bourbon, 0.75 oz lemon juice, 0.75 oz simple syrup"
+    },
+    {
+      "name": "White Russian",
+      "detail": "2 oz vodka, 1 coffee liqueur, heavy cream"
+    }
+  ]
+}
