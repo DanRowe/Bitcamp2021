@@ -2,7 +2,7 @@ import requests
 import json
 
 #Put drink name here
-drinkName = "whiskey sour"
+drinkName = "Rum Runner"
 response = requests.get(f'https://www.thecocktaildb.com/api/json/v1/1/search.php?s={drinkName}')
 drinkObject = response.json()
 drink = drinkObject["drinks"][0]
