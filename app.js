@@ -4,7 +4,7 @@ const { spawn } = require("child_process");
 let result = dotenv.config();
 
 // only run if today is Friday
-if (new Date().getDay() === 5) {
+if (new Date().getDay() === 0) {
   var Twit = require("twit");
 
   var T = new Twit({
@@ -21,40 +21,40 @@ if (new Date().getDay() === 5) {
   python.stdout.on("data", function (data) {
     output.push(data);
   });
-  let response = "";
-  let name = "";
   python.on("close", (code) => {
+    var id = 0;
     m = output.join("").match(/.{1,141}\./g);
     for (let i = 0; i < m.length; i++) {
       console.log(`(${i + 1}/${m.length})` + m[i]);
-
       if (i == 0) {
-        sleep(4000);
-        T.post(
-          "statuses/update",
-          { status: `(${i + 1}/${m.length})` + m[i] },
-          function (err, data, response) {
-            console.log(data);
-            let out = output.join("");
-            console.log(out.length);
-            reponse = data.id_str;
-            // name = data.user
-          }
-        );
+        setTimeout(() => {
+          T.post(
+            "statuses/update",
+            { status: `(${i + 1}/${m.length})` + m[i] },
+            function (err, data, response) {
+              console.log(data);
+              let out = output.join("");
+              console.log(out.length);
+              id+=data.id;
+            }
+          );
+        }, 4000);
       } else {
-        sleep(4000);
-        T.post(
-          `statuses/update`,
-          {
-            in_reply_to_status_id: "" + response,
-            status: `(${i + 1}/${m.length})` + m[i] + ` @weekendcocktai1`,
-          },
-          function (err, data, response) {
-            console.log(data);
-            let out = output.join("");
-            console.log(out.length);
-          }
-        );
+        setTimeout(() => {
+          console.log(id)
+          T.post(
+            `statuses/update`,
+            {
+              in_reply_to_status_id: id,
+              status: `(${i + 1}/${m.length})` + m[i] + ` @weekendcocktai1`,
+            },
+            function (err, data, response) {
+              console.log(data);
+              let out = output.join("");
+              console.log(out.length);
+            }
+          );
+        }, 4000);
       }
     }
   });
