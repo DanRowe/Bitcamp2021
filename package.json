@@ -22,6 +22,7 @@
   "homepage": "https://github.com/DanRowe/Bitcamp2021#readme",
   "dependencies": {
     "dotenv": "^8.2.0",
+    "python-shell": "^3.0.0",
     "twit": "^2.2.11"
   }
 }

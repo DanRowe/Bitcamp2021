@@ -2,7 +2,7 @@ import requests
 import json
 
 #Put drink name here
-drinkName = "Gin+&+Tonic"
+drinkName = "whiskey sour"
 response = requests.get(f'https://www.thecocktaildb.com/api/json/v1/1/search.php?s={drinkName}')
 drinkObject = response.json()
 drink = drinkObject["drinks"][0]
@@ -21,7 +21,18 @@ returnedDrink ={
     "Category": drink["strCategory"],
     "Ingredients": ingInfo
 }
-print(returnedDrink)
+# print(returnedDrink)
+
+start = f'This evening try out a {returnedDrink["Name"]} coming from the wonderful family of {returnedDrink["Category"]} drinks. All you need is '
+
+test = ""
+for ingObject in returnedDrink["Ingredients"]:
+    Idontknowwhattonamevariablesanymore = f'{ingObject["measurement"]} of {ingObject["ingredient"]}, '
+    test = test+Idontknowwhattonamevariablesanymore
+
+end = f' and then {returnedDrink["Instructions"]}'
+
+print(start+test+end)
 
 
 
